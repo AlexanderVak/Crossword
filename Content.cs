@@ -158,7 +158,7 @@ namespace CrossWordCraft
                 //Очистка коллекции вариантов
                 m_Variants.Clear();
 
-                //Формирование слок кроссворда по сетке
+                //Формирование слов кроссворда по сетке
                 Words _Words = _Grid.CreateWords();
                 if (_Words.Count == 0)
                     return;
@@ -173,7 +173,7 @@ namespace CrossWordCraft
                 m_ContinueGeneration = true;
                 m_OperationsCount = 0;
 
-                //Начинается генерации с преобладающего направления.
+                //Начинаем генерацию с преобладающего направления.
                 if (_Words.HorizontalWords.Count < _Words.VerticalWords.Count)
                 {
                     //Сортировка слов по горизонтали по убыванию
