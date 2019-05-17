@@ -75,7 +75,7 @@
             this.templateToolStripMenuItem.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.templateToolStripMenuItem.ImageTransparentColor = System.Drawing.Color.Transparent;
             this.templateToolStripMenuItem.Name = "templateToolStripMenuItem";
-            this.templateToolStripMenuItem.Size = new System.Drawing.Size(59, 20);
+            this.templateToolStripMenuItem.Size = new System.Drawing.Size(64, 20);
             this.templateToolStripMenuItem.Text = "Шаблон";
             this.templateToolStripMenuItem.ToolTipText = "Шаблон";
             // 
@@ -83,48 +83,47 @@
             // 
             this.newToolStripMenuItem.ImageTransparentColor = System.Drawing.Color.Transparent;
             this.newToolStripMenuItem.Name = "newToolStripMenuItem";
-            this.newToolStripMenuItem.Size = new System.Drawing.Size(162, 22);
-            this.newToolStripMenuItem.Text = "Новый...";
-            this.newToolStripMenuItem.ToolTipText = "Новый шаблон...";
+            this.newToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.newToolStripMenuItem.Text = "Новий...";
             this.newToolStripMenuItem.Click += new System.EventHandler(this.newToolStripMenuItem_Click);
             // 
             // openToolStripMenuItem
             // 
             this.openToolStripMenuItem.ImageTransparentColor = System.Drawing.Color.Transparent;
             this.openToolStripMenuItem.Name = "openToolStripMenuItem";
-            this.openToolStripMenuItem.Size = new System.Drawing.Size(162, 22);
-            this.openToolStripMenuItem.Text = "Открыть";
-            this.openToolStripMenuItem.ToolTipText = "Открыть шаблон";
+            this.openToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.openToolStripMenuItem.Text = "Відкрити";
+            this.openToolStripMenuItem.ToolTipText = "Відкрити шаблон";
             this.openToolStripMenuItem.Click += new System.EventHandler(this.openToolStripMenuItem_Click);
             // 
             // saveToolStripMenuItem
             // 
             this.saveToolStripMenuItem.ImageTransparentColor = System.Drawing.Color.Transparent;
             this.saveToolStripMenuItem.Name = "saveToolStripMenuItem";
-            this.saveToolStripMenuItem.Size = new System.Drawing.Size(162, 22);
-            this.saveToolStripMenuItem.Text = "Сохранить";
-            this.saveToolStripMenuItem.ToolTipText = "Сохранить шаблон";
+            this.saveToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.saveToolStripMenuItem.Text = "Зберегти";
+            this.saveToolStripMenuItem.ToolTipText = "Зберегти шаблон";
             this.saveToolStripMenuItem.Click += new System.EventHandler(this.saveToolStripMenuItem_Click);
             // 
             // saveAsToolStripMenuItem
             // 
             this.saveAsToolStripMenuItem.Name = "saveAsToolStripMenuItem";
-            this.saveAsToolStripMenuItem.Size = new System.Drawing.Size(162, 22);
-            this.saveAsToolStripMenuItem.Text = "Сохранить как...";
-            this.saveAsToolStripMenuItem.ToolTipText = "Сохранить как...";
+            this.saveAsToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.saveAsToolStripMenuItem.Text = "Зберегти як...";
+            this.saveAsToolStripMenuItem.ToolTipText = "Зберегти як...";
             this.saveAsToolStripMenuItem.Click += new System.EventHandler(this.saveAsToolStripMenuItem_Click);
             // 
             // toolStripMenuItem1
             // 
             this.toolStripMenuItem1.Name = "toolStripMenuItem1";
-            this.toolStripMenuItem1.Size = new System.Drawing.Size(159, 6);
+            this.toolStripMenuItem1.Size = new System.Drawing.Size(177, 6);
             // 
             // exitToolStripMenuItem
             // 
             this.exitToolStripMenuItem.Name = "exitToolStripMenuItem";
-            this.exitToolStripMenuItem.Size = new System.Drawing.Size(162, 22);
-            this.exitToolStripMenuItem.Text = "Выход";
-            this.exitToolStripMenuItem.ToolTipText = "Выход";
+            this.exitToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.exitToolStripMenuItem.Text = "Вихід";
+            this.exitToolStripMenuItem.ToolTipText = "Вихід";
             this.exitToolStripMenuItem.Click += new System.EventHandler(this.exitToolStripMenuItem_Click);
             // 
             // helpToolStripMenuItem
@@ -132,21 +131,22 @@
             this.helpToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.ReadContentToolStripButton});
             this.helpToolStripMenuItem.Name = "helpToolStripMenuItem";
-            this.helpToolStripMenuItem.Size = new System.Drawing.Size(62, 20);
-            this.helpToolStripMenuItem.Text = "Словарь";
+            this.helpToolStripMenuItem.Size = new System.Drawing.Size(67, 20);
+            this.helpToolStripMenuItem.Text = "Словник";
             // 
             // ReadContentToolStripButton
             // 
             this.ReadContentToolStripButton.Name = "ReadContentToolStripButton";
             this.ReadContentToolStripButton.Size = new System.Drawing.Size(180, 22);
-            this.ReadContentToolStripButton.Text = "Задать список слов";
+            this.ReadContentToolStripButton.Text = "Задати список слів";
+            this.ReadContentToolStripButton.ToolTipText = "Задати список слів";
             this.ReadContentToolStripButton.Click += new System.EventHandler(this.ReadContentToolStripButton_Click);
             // 
             // GenerateToolStripButton
             // 
             this.GenerateToolStripButton.Name = "GenerateToolStripButton";
-            this.GenerateToolStripButton.Size = new System.Drawing.Size(153, 20);
-            this.GenerateToolStripButton.Text = "Сгенерировать кроссворд";
+            this.GenerateToolStripButton.Size = new System.Drawing.Size(142, 20);
+            this.GenerateToolStripButton.Text = "Згенерувати кросворд";
             this.GenerateToolStripButton.Click += new System.EventHandler(this.GenerateToolStripButton_Click);
             // 
             // statusStrip

@@ -31,12 +31,12 @@
             this.labelVariantsCount = new System.Windows.Forms.Label();
             this.buttonStop = new System.Windows.Forms.Button();
             this.Frame = new System.Windows.Forms.Panel();
+            this.labelOperation = new System.Windows.Forms.Label();
             this.labelDepth = new System.Windows.Forms.Label();
             this.labelProgress = new System.Windows.Forms.Label();
             this.CurrentDepthBar = new System.Windows.Forms.ProgressBar();
             this.ProgressValueBar = new System.Windows.Forms.ProgressBar();
             this.labelOperationsCount = new System.Windows.Forms.Label();
-            this.labelOperation = new System.Windows.Forms.Label();
             this.Frame.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -45,9 +45,9 @@
             this.labelVariantsCount.AutoSize = true;
             this.labelVariantsCount.Location = new System.Drawing.Point(8, 8);
             this.labelVariantsCount.Name = "labelVariantsCount";
-            this.labelVariantsCount.Size = new System.Drawing.Size(122, 13);
+            this.labelVariantsCount.Size = new System.Drawing.Size(101, 13);
             this.labelVariantsCount.TabIndex = 1;
-            this.labelVariantsCount.Text = "Количество вариантов";
+            this.labelVariantsCount.Text = "Кількість варіантів";
             // 
             // buttonStop
             // 
@@ -55,7 +55,7 @@
             this.buttonStop.Name = "buttonStop";
             this.buttonStop.Size = new System.Drawing.Size(86, 34);
             this.buttonStop.TabIndex = 3;
-            this.buttonStop.Text = "Завершить...";
+            this.buttonStop.Text = "Завершити...";
             this.buttonStop.UseVisualStyleBackColor = true;
             // 
             // Frame
@@ -76,23 +76,32 @@
             this.Frame.Size = new System.Drawing.Size(287, 218);
             this.Frame.TabIndex = 4;
             // 
+            // labelOperation
+            // 
+            this.labelOperation.AutoSize = true;
+            this.labelOperation.Location = new System.Drawing.Point(8, 53);
+            this.labelOperation.Name = "labelOperation";
+            this.labelOperation.Size = new System.Drawing.Size(96, 13);
+            this.labelOperation.TabIndex = 9;
+            this.labelOperation.Text = "Поточна операція";
+            // 
             // labelDepth
             // 
             this.labelDepth.AutoSize = true;
             this.labelDepth.Location = new System.Drawing.Point(8, 118);
             this.labelDepth.Name = "labelDepth";
-            this.labelDepth.Size = new System.Drawing.Size(105, 13);
+            this.labelDepth.Size = new System.Drawing.Size(95, 13);
             this.labelDepth.TabIndex = 8;
-            this.labelDepth.Text = "Текущий вариант...";
+            this.labelDepth.Text = "Поточний варіант";
             // 
             // labelProgress
             // 
             this.labelProgress.AutoSize = true;
             this.labelProgress.Location = new System.Drawing.Point(8, 75);
             this.labelProgress.Name = "labelProgress";
-            this.labelProgress.Size = new System.Drawing.Size(101, 13);
+            this.labelProgress.Size = new System.Drawing.Size(86, 13);
             this.labelProgress.TabIndex = 7;
-            this.labelProgress.Text = "Полный перебор...";
+            this.labelProgress.Text = "Повний перебір";
             // 
             // CurrentDepthBar
             // 
@@ -113,18 +122,9 @@
             this.labelOperationsCount.AutoSize = true;
             this.labelOperationsCount.Location = new System.Drawing.Point(8, 30);
             this.labelOperationsCount.Name = "labelOperationsCount";
-            this.labelOperationsCount.Size = new System.Drawing.Size(117, 13);
+            this.labelOperationsCount.Size = new System.Drawing.Size(100, 13);
             this.labelOperationsCount.TabIndex = 4;
-            this.labelOperationsCount.Text = "Количество операций";
-            // 
-            // labelOperation
-            // 
-            this.labelOperation.AutoSize = true;
-            this.labelOperation.Location = new System.Drawing.Point(8, 53);
-            this.labelOperation.Name = "labelOperation";
-            this.labelOperation.Size = new System.Drawing.Size(103, 13);
-            this.labelOperation.TabIndex = 9;
-            this.labelOperation.Text = "Текущая операция";
+            this.labelOperationsCount.Text = "Кількість операцій";
             // 
             // ProceedingForm
             // 

@@ -66,9 +66,9 @@
             this.labelVariant.AutoSize = true;
             this.labelVariant.Location = new System.Drawing.Point(1, 36);
             this.labelVariant.Name = "labelVariant";
-            this.labelVariant.Size = new System.Drawing.Size(90, 13);
+            this.labelVariant.Size = new System.Drawing.Size(80, 13);
             this.labelVariant.TabIndex = 1;
-            this.labelVariant.Text = "Выбор варианта";
+            this.labelVariant.Text = "Вибір варіанта";
             // 
             // MaxVariantsCountcheckBox
             // 
@@ -77,9 +77,9 @@
             this.MaxVariantsCountcheckBox.CheckState = System.Windows.Forms.CheckState.Checked;
             this.MaxVariantsCountcheckBox.Location = new System.Drawing.Point(7, 10);
             this.MaxVariantsCountcheckBox.Name = "MaxVariantsCountcheckBox";
-            this.MaxVariantsCountcheckBox.Size = new System.Drawing.Size(104, 17);
+            this.MaxVariantsCountcheckBox.Size = new System.Drawing.Size(94, 17);
             this.MaxVariantsCountcheckBox.TabIndex = 2;
-            this.MaxVariantsCountcheckBox.Text = "Искать первые";
+            this.MaxVariantsCountcheckBox.Text = "Шукати перші";
             this.MaxVariantsCountcheckBox.UseVisualStyleBackColor = true;
             this.MaxVariantsCountcheckBox.CheckedChanged += new System.EventHandler(this.MaxVariantsCountcheckBox_CheckedChanged);
             // 
@@ -110,9 +110,9 @@
             this.labelVariants.AutoSize = true;
             this.labelVariants.Location = new System.Drawing.Point(160, 11);
             this.labelVariants.Name = "labelVariants";
-            this.labelVariants.Size = new System.Drawing.Size(60, 13);
+            this.labelVariants.Size = new System.Drawing.Size(52, 13);
             this.labelVariants.TabIndex = 4;
-            this.labelVariants.Text = "вариантов";
+            this.labelVariants.Text = "варіантів";
             // 
             // ResultPanel
             // 
